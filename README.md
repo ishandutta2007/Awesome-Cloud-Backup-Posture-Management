@@ -82,9 +82,9 @@ The sector is **moderately fragmented and rapidly consolidating**, characterized
 
 ## 💻 Open-Source GitHub Projects 🔓
 
-*Open-source platforms, engines, verification runbooks, and posture exporters. Ranked and sorted descending by GitHub Star Count.*
+*Open-source platforms, engines, verification runbooks, and posture exporters. Ranked and sorted descending by GitHub Stars_Count.*
 
-| Project | ⭐ Stars Badge | 🏷️ License | 🎯 Category / Primary Focus | 🔍 Posture & Verification Highlights |
+| Project | ⭐ Stars_Badge | 🏷️ License | 🎯 Category / Primary Focus | 🔍 Posture & Verification Highlights |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Grafana](https://github.com/grafana/grafana)** | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | AGPL-3.0 | Observability & Visualization Platform | Universal visualization and alerting engine used across DevOps and SRE teams to aggregate metrics from Restic Explorer, Backmon, Velero, and Prometheus Borg exporters into single-pane-of-glass CBPM dashboards. |
 | **[Restic](https://github.com/restic/restic)** | [![Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) | BSD-2-Clause | Deduplicating Secure Backup Engine | Fast, secure, cryptographically verifiable backup engine supporting local, S3, Azure Blob, GCS, B2, and SFTP with integrated `restic check --read-data` cryptographic block verification. |
@@ -162,7 +162,7 @@ Contributions from platform engineers, security researchers, SREs, and backup ad
 
 1. 🍴 **Fork the repo** to your personal GitHub account.
 2. 🌿 **Create a descriptive branch**: `git checkout -b add-my-backup-tool`.
-3. 📝 **Add or update entries** in `README.md` following the exact table structure. Ensure SaaS entries include specific pricing and free tier/trial limits, and open-source tools include their star badges and repository links.
+3. 📝 **Add or update entries** in `README.md` following the exact table structure. Ensure SaaS entries include specific pricing and free tier/trial limits, and open-source tools include their Stars_Badges and repository links.
 4. 🔍 **Verify links** and make sure factual information is verifiable.
 5. 🚀 **Submit a Pull Request** with a concise summary of the addition.
 
