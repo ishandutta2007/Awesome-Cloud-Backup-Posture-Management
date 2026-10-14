@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,67 +41,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global cloud backup and data protection market is estimated at **$7.13B–$8.73B in 2026** (projected to exceed **$25B–$30B by 2032** at a 16–22% CAGR), with the emerging Cloud Backup Posture Management (CBPM) segment gaining rapid momentum within the broader $9B+ Cloud Security Posture Management (CSPM) landscape. The sector is **moderately fragmented and rapidly consolidating**, characterized by established enterprise giants (Veeam, Rubrik, Cohesity, Commvault) executing major M&A alongside venture-backed challengers (Eon, Keepit) disrupting legacy snapshots with autonomous, query-driven posture governance.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Eon](https://www.eon.io/)**  
-
-  The first **Cloud Backup Posture Management (CBPM)** platform, autonomously scanning, mapping, and classifying cloud resources continuously . Provides backup recommendations based on business and compliance needs, ensuring appropriate backup policy is in use. Backup storage is fully managed, portable, and globally searchable—enabling customers to find and restore individual files and run SQL queries on backed-up database snapshots without full resource provisioning . Transforms static backup archives into queryable data lakes, with Google Cloud integration for BigQuery, Vertex AI, and Gemini . Reports **90% improvement in data recovery time** and **30-50% reduction in backup storage costs** .
-
-
-
-- **[Clumio (Commvault)](https://www.clumio.com/)**  
-
-  AWS-native backup and recovery platform acquired by Commvault in 2024. Provides managed, cloud-native data protection at scale with consumption-based pricing starting around $0.01 per GiB-month for S3 storage . **AWS-first**—does not support Azure, with Google Cloud Storage support in early access as of April 2026 . Now ships as **Clumio by Commvault** while remaining a distinct AWS-native SaaS product .
-
-
-
-- **[Veeam](https://www.veeam.com/)**  
-
-  Broadest workload coverage across cloud, virtual, physical, and SaaS. Offers **Veeam Backup for Microsoft 365** and **Veeam Backup for Salesforce** with granular restore and metadata protection.
-
-
-
-- **[HYCU](https://www.hycu.com/)**  
-
-  Multi-cloud backup and recovery for Nutanix, VMware, and SaaS applications including Microsoft 365 and Salesforce. Features R-Cloud for SaaS data protection.
-
-
-
-- **[Rubrik](https://www.rubrik.com/)**  
-
-  Zero Trust data security platform with immutable backups, ransomware detection, and automated recovery. Offers **Rubrik Security Cloud** for posture management across enterprise, cloud, and SaaS data.
-
-
-
-- **[Cohesity](https://www.cohesity.com/)**  
-
-  Data security and management platform with backup, recovery, and threat intelligence. **Helios** provides SaaS-based management and posture visibility across data sources.
-
-
-
-- **[Druva](https://www.druva.com/)**  
-
-  Cloud-native SaaS data protection with endpoint backup, Microsoft 365 protection, and ransomware resilience. **Druva Cloud Platform** provides unified posture management.
-
-
-
-- **[Commvault Cloud](https://www.commvault.com/)**  
-
-  Enterprise data protection platform with **Cloud Cleanroom Recovery** for ransomware recovery testing and **ThreatWise** for proactive threat detection. Metallic is the SaaS-delivered offering for mid-market.
-
-
-
-- **[Metallic (Commvault)](https://www.metallic.io/)**  
-
-  SaaS-delivered backup and recovery from Commvault. Provides enterprise-grade data protection with simple subscription pricing for Microsoft 365, Salesforce, and endpoint data.
-
-
-
-- **[Keepit](https://www.keepit.com/)**  
-
-  Independent cloud backup for Microsoft 365, Google Workspace, and Salesforce with immutable data storage and 10-year retention guarantee. Vendor-neutral with German data residency options.
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limits | Key Capabilities & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Rubrik](https://www.rubrik.com/)** | **~$22B–$23B** Market Cap / **$1.09B+** ARR (FY2025) | Starts at **~$130–$228/FETB/mo** (or ~$50,000/yr baseline contract; Enterprise quotes via Private Offer) | **Proof of Concept (PoC) / Guided Sandbox**: 30-day dedicated evaluation sandbox in enterprise environment (no unassisted free tier) | Zero Trust data security platform with immutable backups, ransomware anomaly detection, and automated recovery via Rubrik Security Cloud across enterprise, cloud, and SaaS. |
+| **[Veeam](https://www.veeam.com/)** | **~$15B** Valuation (2024 secondary) / **$1.75B+** ARR | Starts at **$1.08/user/mo** (Entra ID), **$3.33/user/mo** (M365 Backup), or **~$155–$250/workload/yr** (VUL Foundation) | **Free Forever**: Veeam Community Edition protects up to **10 workloads** indefinitely. **Free Trial**: 30-day enterprise trial (falls back to Community Edition) / 14-day SaaS trial. | Broadest workload coverage across virtual (VMware/Proxmox), cloud (AWS/Azure/GCP), and SaaS with granular restore and metadata protection. |
+| **[Cohesity](https://www.cohesity.com/)** | **~$7B** Valuation / **$1.6B+** Combined Revenue (with Veritas) | Starts at **~$29,100/yr** (10 BETB DataProtect as a Service on AWS Marketplace baseline, ~$242.50/BETB/mo) | **Free Trial**: 30-day free trial of Cohesity Cloud Services (DataProtect as a Service) with full sandbox testing (no permanent free tier). | Data security and management platform with backup, disaster recovery, threat intelligence, and Helios posture visibility. |
+| **[Commvault Cloud](https://www.commvault.com/)** | **~$5.5B–$6.5B** Market Cap / **$1.03B+** ARR (FY2025) | Starts at **$1.70/user/mo** (Standard M365) to **$3.60/user/mo** (Enterprise M365); FETB consumption available | **Free Trial**: 30-day full-feature trial (no credit card required) or 30,000 AWS/Azure Marketplace trial credits over 30 days. | Enterprise data protection platform featuring Cloud Cleanroom Recovery for cyber recovery testing and ThreatWise proactive cyber deception. |
+| **[Eon](https://www.eon.io/)** | **$4B** Valuation (Series D) / **$500M** Raised | Starts at **~$0.01–$0.025/GB/mo** (consumption-based via AWS/GCP Marketplace contracts; custom capacity commitments) | **Free Tier**: "Free for builders" developer access tier. **Free Trial**: 14-to-30 day cloud marketplace evaluation (infrastructure costs excluded). | Autonomous Cloud Backup Posture Management (CBPM) platform scanning and classifying cloud resources continuously, queryable backup data lakes, and automated recovery without full VM provisioning. |
+| **[Druva](https://www.druva.com/)** | **~$2B+** Valuation / **$250M+** ARR | Starts at **$4.00–$8.00/user/mo** (inSync SaaS/Endpoints) or ~$200–$250/TB/mo consumption for cloud workloads | **Free Trial**: 30-day full-feature trial for Microsoft 365, endpoints, and cloud workloads with live chat support and AI guidance (no credit card required). | 100% SaaS-based data protection and posture management with global deduplication, endpoint protection, and automated ransomware resilience. |
+| **[Metallic (Commvault)](https://www.metallic.io/)** | Part of **Commvault ($5.5B–$6.5B)** | Starts at **$1.70/user/mo** (M365 Backup standard) up to **$4.50/user/mo** (M365 Compliance tier) | **Free Trial**: 30-day free trial across M365, endpoints, and VM backup workloads (no credit card required). | SaaS-delivered backup and recovery under the Commvault Cloud portfolio, providing subscription data protection for M365, Salesforce, and endpoints. |
+| **[Clumio (Commvault)](https://www.clumio.com/)** | Acquired by **Commvault** (2024) | Starts at **$0.010/GiB/mo** (Archive tier) & **$0.025/GiB/mo** (Standard tier) + $1.50/M managed objects | **Free Trial**: 14-day free trial on AWS and GCP Marketplaces (includes instant access snapshot restores and DynamoDB/S3 protection). | AWS-native serverless data protection and posture management with instant access search and granular recovery for S3, EBS, and DynamoDB. |
+| **[Keepit](https://www.keepit.com/)** | **~$172M+** Raised / Private | Starts at **$2.60–$4.95/user/mo** (or £4.00/user/mo on UK G-Cloud; includes unlimited storage & retention) | **Free Trial**: 30-day enterprise evaluation trial for Microsoft 365, Google Workspace, and Salesforce (no permanent free tier). | Dedicated vendor-independent cloud-to-cloud backup with tamper-proof immutable data storage and 10-year retention guarantee. |
+| **[HYCU](https://www.hycu.com/)** | **~$140M+** Raised / Private | Starts at **$1.20/user/mo** (Identity/Okta), **$2.25/user/mo** (M365), or **$5,000/yr** (Starter Bundle: 50 VMs, 10 TB, 100 SaaS users) | **Free Trial**: 14-day free trial for HYCU R-Cloud and cloud-native Azure/AWS data protection. | Multi-cloud backup for Nutanix, VMware, and R-Cloud integration covering 70+ SaaS applications and identity suites. |
 
 
 
