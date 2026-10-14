@@ -1,53 +1,71 @@
-# Awesome-Cloud-Backup-Posture-Management
+<div align="center">
 
-## Top Cloud Backup Posture Management Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Cloud-Backup-Posture-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Backup-Posture-Management?style=social&color=white" alt="Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Cloud-Backup-Posture-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Backup-Posture-Management?style=social&color=white" alt="Forks"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Cloud-Backup-Posture-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Backup-Posture-Management?style=flat-square&color=blue" alt="Issues"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Cloud-Backup-Posture-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-green.svg?style=flat-square" alt="License"/></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+<br/><br/>
 
+<a href="#table-of-contents">
+  <img src="assets/banner.svg" alt="Awesome Cloud Backup Posture Management (CBPM) Banner" width="100%"/>
+</a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+# 🛡️ Awesome Cloud Backup Posture Management (CBPM) ☁️
 
-*Focused on Backup Coverage Discovery, Policy Enforcement & Ransomware Resilience*  
+### *The Comprehensive Landscape of Cloud Backup Governance, Continuous Coverage Discovery, Immutability Audit & Ransomware Resilience*
 
-**Last updated: March 2026**
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Backup-Posture-Management/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Backup-Posture-Management/graphs/commit-activity)
+[![Topics](https://img.shields.io/badge/Topics-CBPM%20%7C%20Backup%20%7C%20Disaster%20Recovery-blue?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Backup-Posture-Management)
 
+</div>
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Backup Posture Management (CBPM)**. These tools autonomously scan cloud resources, map backup coverage, enforce retention policies, and ensure recovery readiness—turning backup from a manual checklist into a continuously verified system.
+## 📖 Introduction & Philosophy 🧭
 
+This repository is an SEO-optimized, community-curated directory tracking enterprise **SaaS platforms** and **open-source GitHub projects** in **Cloud Backup Posture Management (CBPM)** and **Data Resilience Posture Management (DRPM)**. 
 
+### Why Cloud Backup Posture Management Matters 🎯
+Traditional backup workflows rely on static schedules and manual checklists. As organizations scale across multi-cloud infrastructure (AWS, Azure, Google Cloud), containerized environments (Kubernetes, OpenShift), and SaaS suites (Microsoft 365, Google Workspace, Salesforce), critical coverage gaps inevitably emerge:
+- **Unprotected Cloud Resources**: VMs, databases, and object storage buckets created without automated backup policies attached.
+- **Ransomware Vulnerabilities**: Un-airgapped snapshots without Object Lock or WORM compliance policies.
+- **Silent Backup Failures**: Backups that report successful execution without verifiable block movement or validated restore drills.
+- **Recovery Readiness Deficits**: Untested recovery runbooks where the target compute and network topology are missing during an outage.
 
-**Examples** include Eon, Clumio, Veeam, HYCU, Rubrik, Cohesity, Druva, Commvault Cloud, Metallic, and Keepit (the category leaders).
+CBPM turns cloud data protection into a **continuously verified, automated system** that autonomously scans cloud resources, maps backup coverage against regulatory frameworks (NIST, CIS, ISO 27001, HIPAA, NIS2), enforces retention rules, and verifies restore integrity.
 
+---
 
+## 📑 Table of Contents 📌
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, independent backup verification, and open monitoring infrastructure—ideal for platform engineers, SREs, and developers seeking transparent, vendor-independent backup posture management.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Blueprint: Custom Self-Hosted CBPM](#-architectural-blueprint-custom-self-hosted-cbpm)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer & Operational Realities](#-disclaimer--operational-realities)
 
+---
 
+## 📊 Sector Overview & Market Dynamics 📈
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+The global cloud backup and data protection market is estimated at **$7.13B–$8.73B in 2026** (projected to exceed **$25B–$30B by 2032** at a 16–22% CAGR), with the emerging Cloud Backup Posture Management (CBPM) segment gaining rapid momentum within the broader $9B+ Cloud Security Posture Management (CSPM) landscape. 
 
+The sector is **moderately fragmented and rapidly consolidating**, characterized by established enterprise giants (Veeam, Rubrik, Cohesity, Commvault) executing major M&A (e.g., Commvault acquiring Clumio, Cohesity combining with Veritas's enterprise data protection business) alongside fast-growing venture-backed challengers (Eon, Keepit) disrupting legacy snapshots with autonomous, query-driven posture governance and data-lake activation.
 
+---
 
-## Table of Contents
+## 🏢 SaaS / Hosted Platforms 🌐
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+*Sorted descending by company scale (enterprise valuation / revenue).*
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global cloud backup and data protection market is estimated at **$7.13B–$8.73B in 2026** (projected to exceed **$25B–$30B by 2032** at a 16–22% CAGR), with the emerging Cloud Backup Posture Management (CBPM) segment gaining rapid momentum within the broader $9B+ Cloud Security Posture Management (CSPM) landscape. The sector is **moderately fragmented and rapidly consolidating**, characterized by established enterprise giants (Veeam, Rubrik, Cohesity, Commvault) executing major M&A alongside venture-backed challengers (Eon, Keepit) disrupting legacy snapshots with autonomous, query-driven posture governance.
-
-## SaaS/Hosted Platforms
-
-| Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limits | Key Capabilities & Highlights |
+| Platform | 🏢 Company Scale (Valuation / Revenue) | 💰 Starting Pricing Tier | 🎁 Free Tier / Trial Limits | 🚀 Key Capabilities & Posture Highlights |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Rubrik](https://www.rubrik.com/)** | **~$22B–$23B** Market Cap / **$1.09B+** ARR (FY2025) | Starts at **~$130–$228/FETB/mo** (or ~$50,000/yr baseline contract; Enterprise quotes via Private Offer) | **Proof of Concept (PoC) / Guided Sandbox**: 30-day dedicated evaluation sandbox in enterprise environment (no unassisted free tier) | Zero Trust data security platform with immutable backups, ransomware anomaly detection, and automated recovery via Rubrik Security Cloud across enterprise, cloud, and SaaS. |
 | **[Veeam](https://www.veeam.com/)** | **~$15B** Valuation (2024 secondary) / **$1.75B+** ARR | Starts at **$1.08/user/mo** (Entra ID), **$3.33/user/mo** (M365 Backup), or **~$155–$250/workload/yr** (VUL Foundation) | **Free Forever**: Veeam Community Edition protects up to **10 workloads** indefinitely. **Free Trial**: 30-day enterprise trial (falls back to Community Edition) / 14-day SaaS trial. | Broadest workload coverage across virtual (VMware/Proxmox), cloud (AWS/Azure/GCP), and SaaS with granular restore and metadata protection. |
@@ -60,132 +78,122 @@ The global cloud backup and data protection market is estimated at **$7.13B–$8
 | **[Keepit](https://www.keepit.com/)** | **~$172M+** Raised / Private | Starts at **$2.60–$4.95/user/mo** (or £4.00/user/mo on UK G-Cloud; includes unlimited storage & retention) | **Free Trial**: 30-day enterprise evaluation trial for Microsoft 365, Google Workspace, and Salesforce (no permanent free tier). | Dedicated vendor-independent cloud-to-cloud backup with tamper-proof immutable data storage and 10-year retention guarantee. |
 | **[HYCU](https://www.hycu.com/)** | **~$140M+** Raised / Private | Starts at **$1.20/user/mo** (Identity/Okta), **$2.25/user/mo** (M365), or **$5,000/yr** (Starter Bundle: 50 VMs, 10 TB, 100 SaaS users) | **Free Trial**: 14-day free trial for HYCU R-Cloud and cloud-native Azure/AWS data protection. | Multi-cloud backup for Nutanix, VMware, and R-Cloud integration covering 70+ SaaS applications and identity suites. |
 
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Restic Explorer](https://github.com/tmseidel/restic-explorer)**  
-
-  Lightweight monitoring interface for **restic backup repositories** (license varies). Built to feed status and health data into observability solutions such as Grafana, Prometheus, or Uptime Kuma. Features **observability-first health signals** (`/actuator/health` exposes per-repository scan, integrity-check, and retention status), **multi-repository dashboard** with status badges and lock warnings, **automated scanning and integrity checks** (`restic snapshots` and `restic check --read-data`), **retention policies** with amber violation warnings, and **encrypted credentials** (AES-256-GCM at rest). Supports S3/S3-compatible, Azure Blob, SFTP, REST Server, and Rclone backends . **The most purpose-built open-source backup posture monitoring tool for restic deployments.**
-
-
-
-- **[Backmon](https://github.com/dreitier/backmon)**  
-
-  Monitoring tool for **backup files in filesystems and object storages** (MIT). Monitors presence, size, and timestamps of recurring backup files stored in local filesystem or S3-compatible object storage (AWS S3, MinIO) . Integrates with **Prometheus and Grafana** for analyzing backup duration and alerting on constraint failures. Helm chart available for Kubernetes deployment. **Go-based with Docker containers available.**
-
-
-
-- **[Bacula-Web](https://github.com/bacula-web/bacula-web)**  
-
-  Open-source reporting and monitoring tool for **Bacula backup infrastructure** (GPLv2). Provides main dashboard with overall backup job status, used volumes, weekly statistics; jobs report and logs; pools and volumes reports; multiple Bacula director statistics from single web UI; and browse backup jobs files and folders . Requires only read-only access to Bacula catalog database. Translated in 15+ languages. **The most mature open-source backup reporting tool for Bacula environments.**
-
-
-
-- **[BackupBeacon](https://wordpress.org/plugins/backupbeacon/)**  
-
-  Independent watchdog for **WordPress backup verification** (open-source). Most backup failures are silent—BackupBeacon is the alarm that doesn't grade itself. Add backup destinations with freshness limits in hours; point backup jobs at token-authenticated ping endpoint; every successful backup pings . Evaluates every destination hourly (WP-Cron): **fresh**, **stale** (past limit), or **silent** (never recorded). Email and persistent admin notice on stale/silent. **No external account, no per-site fees**—pings arrive at your own WordPress site. Backup-plugin-agnostic—works with any tool that can run curl after finishing .
-
-
-
-- **[jobwatch](https://www.npmjs.com/package/jobwatch)**  
-
-  Check-in system for **cron jobs and backups** (open-source). A job that runs fine emits nothing on its own; the only way to know it stopped is that it stops checking in. Jobs call `jobwatch checkin <name>` when they finish; separate scheduled `jobwatch status` reports anything quiet . Statuses: **OK**, **OVERDUE**, **NEVER**. Exit codes compose directly as cron job or monitoring command check. Configurable per-job `every` and `grace` periods. **Lightweight Node.js-based watchdog for any scheduled backup script.**
-
-
-
-- **[Velero Backup Verification (OneUptime)](https://github.com/OneUptime)**  
-
-  Open-source **backup verification tests using Velero restore jobs** (license varies). Kubernetes Job that performs end-to-end verification: checks backup status is Completed, creates test namespace, performs restore with namespace mappings, verifies restored resources (pods, services, PVCs), tests application connectivity, generates verification report, and cleans up test resources . CronJob runs daily at 3 AM with concurrency policy Forbid. **The most comprehensive open-source backup verification pattern for Kubernetes environments.**
-
-
-
-- **[Ceph Backup Verification Runbook](https://github.com/OneUptime)**  
-
-  Open-source runbook for **Rook-Ceph backup verification** (license varies). Systematic verification steps for all Ceph data paths: **RBD snapshots** (list, check size not zero, clone and mount), **Velero backups** (check status, restore to staging namespace), **CephFS backup** (Restic snapshots, integrity check, subdirectory restore), **RGW bucket replication** (sync status, object count parity), and **checksum verification** (md5sum before/after restore) . **Monthly restore testing minimum** to confirm disaster recovery procedures work.
-
-
-
-- **[Nakivo Prometheus Exporter](https://pypi.org/project/nakivo-prometheus-exporter/)**  
-
-  Open-source Prometheus exporter for **Nakivo Backup & Replication** (license varies). Connects to Nakivo API endpoint and fetches licensing and backup state information as Prometheus metrics . Configurable multi-host monitoring with `cert_verify` options. **Proof of concept**—currently fetches VM backup state and licensing state, with quiescing, backup sizes, and durations listed as future additions. Recommended scrape interval: 1 hour.
-
-
-
-- **[Prometheus Borg Exporter](https://github.com/mad-ady/prometheus-borg-exporter)**  
-
-  Bash script to **monitor Borg backup with Prometheus** (license varies). 17 GitHub stars . Complementary to Restic Explorer for environments using BorgBackup instead of restic.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Pulse](https://github.com/rcourtman/pulse)** — Real-time monitoring dashboard for **Proxmox VE, Proxmox Mail Gateway, PBS, and Docker infrastructure** with alerts and webhooks (open-source). Features unified view of PBS backups, PVE backups, and snapshots; interactive Backup Explorer with cross-highlighted bar chart and grid; quick time-range pivots; and smart alerts via email, Discord, Slack, Telegram . **The most feature-rich open-source backup posture dashboard for Proxmox environments.**
-
-- **[DBackup](https://github.com/Skyfay/DBackup)** — Open-source backup solution with **backup file integrity verification** (v2.7.0). Storage Explorer shows SHA-256/MD5 checksums and last verification result per file, with Verify Now button running tracked async execution . Native checksum verification for S3/R2/Hetzner (SHA-256 via object metadata), Google Drive (MD5 via API), OneDrive (SHA-256 via Graph API), and local filesystem—**no download required**. Post-upload verification opt-in for all storage destinations.
-
-- **[OpenObserve](https://github.com/openobserve/openobserve)** — Open-source observability platform for metrics, logs, and traces—can ingest backup health signals from multiple sources.
-
-- **[Grafana](https://github.com/grafana/grafana)** — Open-source analytics and monitoring platform for building unified backup posture dashboards.
-
-- **[Zabbix](https://www.zabbix.com/)** — Open-source enterprise monitoring with **native AWS Backup template** providing vault discovery, recovery point tracking, lock status, retention period monitoring, and job state filtering . Template macros configure backup job filtering by state, resource type, and resource name.
-
-- Community **n8n** workflows for backup alert routing and posture reporting automation.
-
-
-
-**Frameworks for building custom systems**: Combine **Restic Explorer** or **Backmon** for backup health monitoring with **Velero Backup Verification** for end-to-end restore testing, **Bacula-Web** for Bacula reporting, **Pulse** for Proxmox dashboards, and **Prometheus + Grafana** for unified alerting—creating a fully self-hosted, enterprise-grade backup posture management platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud backup posture management systems handling backup data must comply with data protection regulations (GDPR, CCPA, etc.) and industry-specific retention requirements.
-
-- **A backup that has never been tested is not a backup.** Most verification stops at the backup's Completed status—go one step further and confirm volume bytes actually moved and restores produce the expected data . Velero's data mover can confirm byte counts; DBackup provides SHA-256/MD5 checksums .
-
-- **Backup tools restore into clusters that already exist.** They do not create the cluster, nodes, network, load balancers, or DNS. A DR plan that starts with "restore the backup" must state what the backup gets restored into .
-
-- **Declared state is not stored state.** A GitOps controller can rebuild application definitions from Git while the recovery cluster has never run the application—the store holds the data, the declarations hold the structure, and restoring one without the other fails .
-
-- **Metric edge cases exist.** Velero's `velero_backup_last_status` metric reflects the latest backup of a schedule, not a specific backup—it can report 1 even when recent backups are PartiallyFailed . Always cross-check with `velero backup describe`.
-
-- **Open-source coverage is tool-specific.** Restic Explorer, Backmon, and Bacula-Web are mature for their respective backup tools. There is no generic open-source CBPM that discovers unprotected cloud resources across AWS, Azure, and GCP—that remains a commercial capability .
-
-- Self-hosted open-source solutions require proper security hardening, credential encryption (AES-256-GCM recommended), and ongoing maintenance. Backup posture is not compliance—it is evidence that recovery is possible.
-
-
+---
+
+## 💻 Open-Source GitHub Projects 🔓
+
+*Open-source platforms, engines, verification runbooks, and posture exporters. Ranked and sorted descending by GitHub Star Count.*
+
+| Project | ⭐ Stars Badge | 🏷️ License | 🎯 Category / Primary Focus | 🔍 Posture & Verification Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Grafana](https://github.com/grafana/grafana)** | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | AGPL-3.0 | Observability & Visualization Platform | Universal visualization and alerting engine used across DevOps and SRE teams to aggregate metrics from Restic Explorer, Backmon, Velero, and Prometheus Borg exporters into single-pane-of-glass CBPM dashboards. |
+| **[Restic](https://github.com/restic/restic)** | [![Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) | BSD-2-Clause | Deduplicating Secure Backup Engine | Fast, secure, cryptographically verifiable backup engine supporting local, S3, Azure Blob, GCS, B2, and SFTP with integrated `restic check --read-data` cryptographic block verification. |
+| **[OpenObserve](https://github.com/openobserve/openobserve)** | [![Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers) | AGPL-3.0 | Cloud-Native Observability | High-throughput, cloud-native storage engine for logs, metrics, and traces that ingests backup health signals, audit logs, and retention breach alerts across multi-cloud environments. |
+| **[Duplicati](https://github.com/duplicati/duplicati)** | [![Stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers) | LGPL-2.1 | Encrypted Cloud Backup Client | Block-based encrypted backup client supporting S3, Azure, OneDrive, Google Drive, and Mega with built-in remote database verification and automated repair routines. |
+| **[Kopia](https://github.com/kopia/kopia)** | [![Stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers) | Apache-2.0 | Fast Encrypted Deduplicating Backup | Next-generation fast backup tool with client-side zero-knowledge encryption, content-addressable deduplication, snapshot management, policy-driven retention enforcement, and verification commands. |
+| **[BorgBackup](https://github.com/borgbackup/borg)** | [![Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers) | BSD-3-Clause | Deduplicating Archiver | Battle-tested authenticated encryption backup tool with deduplication, compression, and robust snapshot integrity checks (`borg check`). |
+| **[Velero](https://github.com/vmware-tanzu/velero)** | [![Stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers) | Apache-2.0 | Kubernetes DR & Cluster Migration | Standard for Kubernetes cluster backup and disaster recovery. Captures cluster resources and persistent volumes across cloud providers with schedule policies and Prometheus metrics. |
+| **[CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)** | [![Stars](https://img.shields.io/github/stars/cloudnative-pg/cloudnative-pg?style=social&color=white)](https://github.com/cloudnative-pg/cloudnative-pg/stargazers) | Apache-2.0 | Kubernetes PostgreSQL Posture & DR | Kubernetes operator managing enterprise PostgreSQL with automated continuous WAL archiving, Barman-backed object storage backup, automated recovery point testing, and health status indicators. |
+| **[OneUptime](https://github.com/OneUptime/oneuptime)** | [![Stars](https://img.shields.io/github/stars/OneUptime/oneuptime?style=social&color=white)](https://github.com/OneUptime/oneuptime/stargazers) | Apache-2.0 | Open-Source Observability & DR | All-in-one open-source observability suite maintaining published runbooks and automated CronJobs for Velero end-to-end restore verification and Rook-Ceph disaster recovery testing. |
+| **[Backrest](https://github.com/garethgeorge/backrest)** | [![Stars](https://img.shields.io/github/stars/garethgeorge/backrest?style=social&color=white)](https://github.com/garethgeorge/backrest/stargazers) | GPL-3.0 | Web UI & Orchestrator for Restic | Fully featured Web UI and orchestrator wrapping Restic with automated scheduling, continuous repo health checks, plan tracking, Discord/Slack webhooks, and multi-repo visibility. |
+| **[Pulse](https://github.com/rcourtman/pulse)** | [![Stars](https://img.shields.io/github/stars/rcourtman/pulse?style=social&color=white)](https://github.com/rcourtman/pulse/stargazers) | MIT | Proxmox VE / PBS Posture Dashboard | Purpose-built real-time monitoring dashboard for Proxmox VE, Proxmox Backup Server (PBS), and Docker infrastructure with interactive Backup Explorer, cross-highlighted grid, and smart alerts. |
+| **[Zabbix](https://github.com/zabbix/zabbix)** | [![Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers) | GPL-2.0 | Enterprise Infrastructure Monitoring | Enterprise monitoring suite featuring native AWS Backup templates for vault discovery, recovery point tracking, retention audit, and AWS Backup Vault Lock verification. |
+| **[Vorta](https://github.com/borgbase/vorta)** | [![Stars](https://img.shields.io/github/stars/borgbase/vorta?style=social&color=white)](https://github.com/borgbase/vorta/stargazers) | GPL-3.0 | Desktop GUI for BorgBackup | Graphical backup client integrating BorgBackup with scheduled background profiles, snapshot diff visualization, and repository integrity check verification. |
+| **[Borgmatic](https://github.com/borgmatic-collective/borgmatic)** | [![Stars](https://img.shields.io/github/stars/borgmatic-collective/borgmatic?style=social&color=white)](https://github.com/borgmatic-collective/borgmatic/stargazers) | GPL-3.0 | Declarative Backup Orchestrator | Declarative configuration wrapper for BorgBackup that automates database dumps, snapshot creation, consistency checks, remote monitoring pings, and retention pruning. |
+| **[Autorestic](https://github.com/cupcakearmy/autorestic)** | [![Stars](https://img.shields.io/github/stars/cupcakearmy/autorestic?style=social&color=white)](https://github.com/cupcakearmy/autorestic/stargazers) | Apache-2.0 | CLI Wrapper for Restic | Config-driven orchestrator for Restic supporting multi-location backups, automatic prune/check schedules, and health hooks. |
+| **[Rest Server](https://github.com/restic/rest-server)** | [![Stars](https://img.shields.io/github/stars/restic/rest-server?style=social&color=white)](https://github.com/restic/rest-server/stargazers) | BSD-2-Clause | Secure Append-Only Restic Server | High-performance HTTP server for Restic repositories with `--append-only` mode, providing tamper-resistant ransomware defense by preventing deletion of existing snapshots. |
+| **[Kanister](https://github.com/kanisterio/kanister)** | [![Stars](https://img.shields.io/github/stars/kanisterio/kanister?style=social&color=white)](https://github.com/kanisterio/kanister/stargazers) | Apache-2.0 | Application-Consistent Kubernetes DR | Extensible framework for application-level data management on Kubernetes, orchestrating consistent database backups (MySQL, PostgreSQL, MongoDB) with automated validation blueprints. |
+| **[DBackup](https://github.com/Skyfay/DBackup)** | [![Stars](https://img.shields.io/github/stars/Skyfay/DBackup)](https://github.com/Skyfay/DBackup/stargazers) | GPL-3.0 | Backup Integrity & Storage Explorer | Automated backup solution featuring native checksum verification for S3/R2/Hetzner (SHA-256 via metadata), Google Drive (MD5), and OneDrive without downloading files. |
+| **[Bacula-Web](https://github.com/bacula-web/bacula-web)** | [![Stars](https://img.shields.io/github/stars/bacula-web/bacula-web?style=social&color=white)](https://github.com/bacula-web/bacula-web/stargazers) | GPL-2.0 | Bacula Reporting & Analytics | Reporting and health monitoring interface for Bacula backup infrastructure, exposing job status, pool volume metrics, and catalog health. |
+| **[Restic Explorer](https://github.com/tmseidel/restic-explorer)** | [![Stars](https://img.shields.io/github/stars/tmseidel/restic-explorer?style=social&color=white)](https://github.com/tmseidel/restic-explorer/stargazers) | MIT | Restic Repository Health Dashboard | Observability-first health dashboard for restic repositories (`/actuator/health`), multi-repo status badges, automated integrity scans, and retention policy breach alerting. |
+| **[Prometheus Borg Exporter](https://github.com/mad-ady/prometheus-borg-exporter)** | [![Stars](https://img.shields.io/github/stars/mad-ady/prometheus-borg-exporter?style=social&color=white)](https://github.com/mad-ady/prometheus-borg-exporter/stargazers) | MIT | Borg Prometheus Exporter | Lightweight exporter parsing Borg repository archives, snapshot durations, and sizes as Prometheus metrics for posture alerting. |
+| **[Backmon](https://github.com/dreitier/backmon)** | [![Stars](https://img.shields.io/github/stars/dreitier/backmon?style=social&color=white)](https://github.com/dreitier/backmon/stargazers) | MIT | File & Object Storage Backup Watchdog | Go-based monitor evaluating presence, size, and timestamp freshness of recurring backups in local filesystems and S3/MinIO buckets with Prometheus integration. |
+| **[BackupBeacon](https://wordpress.org/plugins/backupbeacon/)** | [![WP Plugin](https://img.shields.io/badge/WordPress-Plugin-blue?style=social&color=white)](https://wordpress.org/plugins/backupbeacon/) | GPL-2.0 | Independent Backup Freshness Watchdog | Zero-dependency webhook check-in watchdog monitoring backup heartbeat timestamps and alerting on stale or silent backup tasks. |
+| **[jobwatch](https://www.npmjs.com/package/jobwatch)** | [![npm](https://img.shields.io/badge/npm-package-red?style=social&color=white)](https://www.npmjs.com/package/jobwatch) | MIT | Cron & Backup Check-In CLI | Dead-man's switch watchdog CLI for scheduled backup scripts, evaluating `OK`, `OVERDUE`, and `NEVER` health states with standard exit codes. |
 
 ---
 
+## 🛠️ Architectural Blueprint: Custom Self-Hosted CBPM 🏗️
 
+Organizations seeking a completely vendor-independent, open-source Cloud Backup Posture Management pipeline can compose an enterprise-grade stack using these components:
 
-**Made for platform engineers, SREs, backup administrators, and developers building transparent backup posture solutions.**  
+```mermaid
+flowchart TD
+    subgraph Sources["1. Multi-Cloud & Hybrid Workloads"]
+        AWS["AWS / GCP / Azure Resources"]
+        K8s["Kubernetes Clusters & PVCs"]
+        Databases["PostgreSQL / MySQL / Object Storage"]
+    end
 
-Let's make Cloud Backup Posture Management more open, data-driven, and verifiable.
+    subgraph Protection["2. Execution & Tamper-Resistant Storage"]
+        VeleroEng["Velero / Kanister (K8s)"]
+        ResticEng["Restic / Backrest / Kopia (VM & Cloud)"]
+        AppendServer["Rest-Server (--append-only WORM)"]
+    end
+
+    subgraph Verification["3. Continuous Posture & Integrity Verification"]
+        CheckJobs["Cron Verification Drills (OneUptime / Velero Restore)"]
+        HealthExporters["Restic Explorer + Backmon + Borg Exporter"]
+        ChecksumVerify["DBackup Remote Checksum Verification (SHA-256)"]
+    end
+
+    subgraph Observability["4. Posture Dashboard & Incident Response"]
+        Prometheus["Prometheus / OpenObserve (Metric Ingestion)"]
+        GrafanaDash["Grafana CBPM Executive Dashboard"]
+        AlertManager["Alertmanager / Slack / Discord / PagerDuty"]
+    end
+
+    Sources --> Protection
+    Protection --> AppendServer
+    Protection --> Verification
+    Verification --> HealthExporters
+    HealthExporters --> Prometheus
+    ChecksumVerify --> Prometheus
+    CheckJobs --> Prometheus
+    Prometheus --> GrafanaDash
+    Prometheus --> AlertManager
+```
+
+---
+
+## 🤝 How to Contribute 💡
+
+Contributions from platform engineers, security researchers, SREs, and backup admins are welcome!
+
+1. 🍴 **Fork the repo** to your personal GitHub account.
+2. 🌿 **Create a descriptive branch**: `git checkout -b add-my-backup-tool`.
+3. 📝 **Add or update entries** in `README.md` following the exact table structure. Ensure SaaS entries include specific pricing and free tier/trial limits, and open-source tools include their star badges and repository links.
+4. 🔍 **Verify links** and make sure factual information is verifiable.
+5. 🚀 **Submit a Pull Request** with a concise summary of the addition.
+
+---
+
+## ☕ Support & Sponsorship 💖
+
+If this curated repository saved you hours of research or helped you strengthen your organization's backup posture:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with your DevOps, SRE, and platform engineering teams.
+- ☕ **Sponsor the maintainer** or buy a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponoors/ishandutta2007) to support continuous open-source research and updates!
+
+---
+
+## 📈 Star History 🌟
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Backup-Posture-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Backup-Posture-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer & Operational Realities 🚨
+
+- **Community-Curated**: This repository is a curated community guide and does not constitute a formal commercial endorsement.
+- **Untested Backups Are Schrodinger's Data**: A backup whose recovery has never been tested is only a theoretical backup. Always implement automated restore drills that verify byte movement and service startup, rather than trusting a "Job Completed" status badge.
+- **Declared State vs. Stored State**: GitOps declarations rebuild container specifications, but they do not restore persistent data volumes. Align your GitOps and data backup policies simultaneously.
+- **Ransomware Defense**: Ensure your offsite repositories implement hardware-enforced immutability (AWS S3 Object Lock, Azure Immutable Blob, or append-only REST backends) to prevent malicious encryption of backup pools.
+- **Compliance & Security**: Secure all backup metadata, encryption keys (KMS), and transit pipelines with AES-256-GCM and strict IAM least-privilege principles.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the Cloud Engineering Community.</sub>
+</div>
